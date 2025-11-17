@@ -1,5 +1,5 @@
 apiVersion: v2
-name: fullstack-app
+name: fullstack-app-lab14P
 description: A Helm chart for deploying a fullstack app (Frontend + Backend + MySQL) with Ingress and Autoscaling
 type: application
 version: 1.0.0
