@@ -1,4 +1,4 @@
-namespace: fullstack-app-lab14P
+namespace: fullstack-app
 
 # =====================
 # Ingress Configuration
@@ -25,7 +25,7 @@ backend:
   image: mohanreddy18/k8-lab14P-backend:latest
   replicas: 2
   port: 2000
-  nodePort: 30025
+  nodePort: 30026
   resources:
     requests:
       cpu: "100m"
@@ -46,7 +46,7 @@ frontend:
   image: mohanreddy18/k8-lab14P-frontend:latest
   replicas: 2
   port: 80
-  nodePort: 30080
+  nodePort: 30081
   resources:
     requests:
       cpu: "100m"
